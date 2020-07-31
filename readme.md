@@ -1,4 +1,5 @@
 # Ruby Array Iterations Lab
+<strong>This guide assumes you have Ruby installed on your machine, a text editor, and a Github account already in place.</strong>
 
 In this lab, we are going to be doing 3 iterations inside of `iteration.rb`. 
 
@@ -10,11 +11,26 @@ The third you will update your card collection by getting rid of all the doubles
 
 
 
-# Installation
+# Installation 
+To get started, fork this lab to your GitHub account, copy the repo url, then in your terminal enter:
 
-1.Fork this lab to clone the repository to your GitHub. <br>
-2. Copy the repo url. <br>
-3. In your console type in:
 ```
 git clone {repo url}
 ```
+
+This will create a repository in your github and download your repo to your local machine so you can start working on it. When you solved all test cases follow thes steps:
+
+```
+git add .
+```
+This will add all files in your current directory to be committed to Github.
+
+```
+git commit -m "Done."
+```
+This will commit the changes you made and ready them to be pushed to Github. The `-m "Done."' part will add a message expalaining your commit.
+
+```
+git push
+```
+This will push your changes to the associated Github repo.
